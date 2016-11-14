@@ -13,20 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 */
-/*# Copyright 2016 Georges Lipka
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-*/
+ 
 package react
 
 import scala.scalajs.js
@@ -115,7 +102,7 @@ trait CSSProperties extends JAny {
 
   /**
    * This property describes how the element's background images should blend with each other and the element's background color.
-   * The value is a list of blend modes that corresponds to each background image. Each element in the list will apply to the corresponding element of background-image. If a property doesnÃƒÂ¯Ã‚Â¿Ã‚Â½t have enough comma-separated values to match the Int of layers, the UA must calculate its used value by repeating the list of values until there are enough.
+   * The value is a list of blend modes that corresponds to each background image. Each element in the list will apply to the corresponding element of background-image. If a property doesnÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½t have enough comma-separated values to match the Int of layers, the UA must calculate its used value by repeating the list of values until there are enough.
    */
   var backgroundBlendMode: UndefOr[js.Any] = js.native;
 
@@ -222,7 +209,7 @@ trait CSSProperties extends JAny {
   var borderImageWidth: UndefOr[js.Any] = js.native;
 
   /**
-   * Shorthand property that defines the border-width, border-style and border-color of an element's left border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the left border ÃƒÂ¯Ã‚Â¿Ã‚Â½ border-left-width, border-left-style and border-left-color.
+   * Shorthand property that defines the border-width, border-style and border-color of an element's left border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the left border ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ border-left-width, border-left-style and border-left-color.
    */
   var borderLeft: UndefOr[js.Any] = js.native;
 
@@ -243,7 +230,7 @@ trait CSSProperties extends JAny {
   var borderLeftWidth: UndefOr[js.Any] = js.native;
 
   /**
-   * Shorthand property that defines the border-width, border-style and border-color of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border ÃƒÂ¯Ã‚Â¿Ã‚Â½ border-right-width, border-right-style and border-right-color.
+   * Shorthand property that defines the border-width, border-style and border-color of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ border-right-width, border-right-style and border-right-color.
    */
   var borderRight: UndefOr[js.Any] = js.native;
 
@@ -274,7 +261,7 @@ trait CSSProperties extends JAny {
   var borderStyle: UndefOr[js.Any] = js.native;
 
   /**
-   * Shorthand property that defines the border-width, border-style and border-color of an element's top border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the top border ÃƒÂ¯Ã‚Â¿Ã‚Â½ border-top-width, border-top-style and border-top-color.
+   * Shorthand property that defines the border-width, border-style and border-color of an element's top border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the top border ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ border-top-width, border-top-style and border-top-color.
    */
   var borderTop: UndefOr[js.Any] = js.native;
 
@@ -474,7 +461,7 @@ trait CSSProperties extends JAny {
   var display: UndefOr[js.Any] = js.native;
 
   /**
-   * The  fill property paints the interior of the given graphical element. The area to be painted consists of js.Any areas inside the outline of the shape. To determine the inside of the shape, all subpaths are considered, and the interior is determined according to the rules associated with the current value of the ÃƒÂ¯Ã‚Â¿Ã‚Â½fill-ruleÃƒÂ¯Ã‚Â¿Ã‚Â½ property. The zero-width geometric outline of a shape is included in the area to be painted.
+   * The  fill property paints the interior of the given graphical element. The area to be painted consists of js.Any areas inside the outline of the shape. To determine the inside of the shape, all subpaths are considered, and the interior is determined according to the rules associated with the current value of the ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½fill-ruleÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ property. The zero-width geometric outline of a shape is included in the area to be painted.
    */
   var fill: UndefOr[js.Any] = js.native;
 
