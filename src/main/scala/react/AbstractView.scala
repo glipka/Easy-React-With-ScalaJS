@@ -55,7 +55,7 @@ import org.scalajs.dom._
 // https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/react/react.d.ts
 
 @js.native
-@JSName("React.AbstractView")
+@JSName("React.AbstractView")     
 abstract class AbstractView extends js.Any {
   var styleMedia: StyleMedia = js.native
   var document: Document = js.native
