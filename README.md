@@ -1,2 +1,2 @@
-# scalajs-react-freemarker 
+# Easy ReactJS with ScalaJS  
 In construction 
