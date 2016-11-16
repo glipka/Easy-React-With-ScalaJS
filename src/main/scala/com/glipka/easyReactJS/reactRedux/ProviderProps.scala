@@ -14,10 +14,10 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 import scala.scalajs.js
-import redux.Store
-import react._
+import com.glipka.easyReactJS.redux.Store
+import com.glipka.easyReactJS.react._
  
 @js.native
 trait  ProviderProps extends js.Any{

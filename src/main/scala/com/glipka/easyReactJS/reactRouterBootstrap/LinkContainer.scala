@@ -14,10 +14,10 @@
 # limitations under the License.
 */
  
-package reactRouterBootstrap
+package com.glipka.easyReactJS.reactRouterBootstrap
 import scala.scalajs.js
 import scala.scalajs.js._
-import react._ 
+import com.glipka.easyReactJS.react._ 
 
 @js.native
 trait LinkContainer  extends ComponentClass[LinkContainerProps] {} 

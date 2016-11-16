@@ -14,10 +14,10 @@
 # limitations under the License.
 */
 
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 import scala.scalajs.js
-import react._
-import reactBootstrap.ReactBootstrap._
+import com.glipka.easyReactJS.react._
+import com.glipka.easyReactJS.reactBootstrap.ReactBootstrap._
 
 // [Fade /]
 @js.native trait FadeProps extends TransitionCallbacks with Props[Fade] with js.Any {

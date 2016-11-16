@@ -14,13 +14,13 @@
 # limitations under the License.
 */
  
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 
 import scala.scalajs.js
 import scala.scalajs.js._
-import react._
+import com.glipka.easyReactJS.react._
 import ReactBootstrap._
-import react.React._
+import com.glipka.easyReactJS.react.React._
 
 @js.native trait MenuItemProps extends  HTMLProps[MenuItem] with js.Any {
   var active: Boolean = js.native

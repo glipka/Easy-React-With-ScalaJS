@@ -2,7 +2,7 @@ import de.heikoseeberger.sbtheader.HeaderPattern
 lazy val root = (project in file(".")).enablePlugins(ScalaJSPlugin,SbtWeb )
 JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
 name := "EasyReactJSWithScala"
-version := "0.1-SNAPSHOT"
+version := "0.1"
 scalaVersion := "2.11.8"
 
 scalaJSOutputMode := org.scalajs.core.tools.javascript.OutputMode.ECMAScript6

@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package redux
+package com.glipka.easyReactJS.redux
 import scala.scalajs.js
 /**
      * A middleware is a higher-order function that composes a dispatch function

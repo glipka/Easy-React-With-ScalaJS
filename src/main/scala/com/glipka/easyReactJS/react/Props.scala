@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package react
+package com.glipka.easyReactJS.react
 import scala.scalajs.js
 
 @js.native trait Props[T] extends js.Any {

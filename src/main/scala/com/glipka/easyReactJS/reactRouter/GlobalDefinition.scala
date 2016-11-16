@@ -14,8 +14,8 @@
 # limitations under the License.
 */
 
-package reactRouter
-import react._
+package com.glipka.easyReactJS.reactRouter
+import com.glipka.easyReactJS.react._
 import scala.scalajs.js
 
 object GlobalDefinition {

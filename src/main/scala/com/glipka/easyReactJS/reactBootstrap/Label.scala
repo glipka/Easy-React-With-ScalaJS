@@ -14,11 +14,11 @@
 # limitations under the License.
 */
  
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 
 import scala.scalajs.js
 import scala.scalajs.js._
-import react._
+import com.glipka.easyReactJS.react._
 import ReactBootstrap._
 
 @js.native trait LabelProps extends HTMLProps[Label]  with js.Any{

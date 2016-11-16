@@ -16,10 +16,10 @@
  
  
  
-package reactRouterBootstrap
+package com.glipka.easyReactJS.reactRouterBootstrap
 import scala.scalajs.js
 import scala.scalajs.js._
-import react._
+import com.glipka.easyReactJS.react._
 @js.native
 object ReactRouterBootstrap extends js.Any{
   var LinkContainer: LinkContainer = js.native

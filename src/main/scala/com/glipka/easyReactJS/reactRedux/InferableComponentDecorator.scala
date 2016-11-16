@@ -14,10 +14,10 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 
-import react.ComponentClass
-import react.StatelessComponent
+import com.glipka.easyReactJS.react.ComponentClass
+import com.glipka.easyReactJS.react.StatelessComponent
 import scala.scalajs.js
 
  /**

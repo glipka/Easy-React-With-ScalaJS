@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package redux
+package com.glipka.easyReactJS.redux
 
 object Include {
   type ActionDerivee <: Action

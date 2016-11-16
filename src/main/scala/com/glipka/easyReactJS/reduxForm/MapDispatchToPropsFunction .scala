@@ -14,10 +14,10 @@
 # limitations under the License.
 */
  
-package reduxForm
+package com.glipka.easyReactJS.reduxForm
  import scala.scalajs.js
 import scala.scalajs.js._
-import react.SyntheticEvent
+import com.glipka.easyReactJS.react.SyntheticEvent
 @js.native 
 trait MapDispatchToPropsFunction extends js.Any  {
  //  (dispatch:Dispatch<any>, ownProps?:any): any;

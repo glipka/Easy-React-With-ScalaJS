@@ -14,10 +14,10 @@
 # limitations under the License.
 */
  
-package reactRouter
+package com.glipka.easyReactJS.reactRouter
 
  import scala.scalajs.js
   import GlobalDefinition._
-import react._
+import com.glipka.easyReactJS.react._
 @js.native 
 trait IndexRoute extends ComponentClass[IndexRouteProps] with js.Any{}

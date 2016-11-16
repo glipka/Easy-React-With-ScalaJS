@@ -14,9 +14,9 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 import scala.scalajs.js
-import redux.Dispatch
+import com.glipka.easyReactJS.redux.Dispatch
 @js.native
 trait MapDispatchToPropsFunction[TDispatchProps, TOwnProps] extends js.Any {
  val   (dispatch: Dispatch[_], ownProps : Any): TDispatchProps = js.native

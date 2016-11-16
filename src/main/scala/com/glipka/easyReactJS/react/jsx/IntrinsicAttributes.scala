@@ -14,18 +14,18 @@
 # limitations under the License.
 */
 
-package react.jsx
+package com.glipka.easyReactJS.react.jsx
 
  import scala.scalajs.js
 import scala.scalajs.js._
 import org.scalajs.dom.html
-import react._
+ 
 
 import js.{ UndefOr, Any, Function => JFn }
 import js.annotation.{ JSBracketAccess, JSName }
 import js.{ Any => jAny }
 import org.scalajs.dom._
-import react._
+import com.glipka.easyReactJS.react._
 
 // https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/react/react.d.ts
 

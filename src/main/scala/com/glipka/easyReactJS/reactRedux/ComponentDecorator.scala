@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 import scala.scalajs.js
 import scala.scalajs.js._
 import org.scalajs.dom.html
@@ -24,7 +24,7 @@ import js.annotation.{ JSBracketAccess, JSName }
 import js.{Any =>jAny}
  import org.scalajs.dom._
  
-import react.ComponentClass
+import com.glipka.easyReactJS.react.ComponentClass
 @js.native
 trait ComponentDecorator[TOriginalProps, TOwnProps] extends js.Any {
     val (component: ComponentClass[TOriginalProps]): ComponentClass[TOwnProps]=js.native

@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package redux
+package com.glipka.easyReactJS.redux
 import scala.scalajs.js
 /**
      * Function to remove listener added by `Store.subscribe()`.

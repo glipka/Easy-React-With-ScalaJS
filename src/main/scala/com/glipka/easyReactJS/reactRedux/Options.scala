@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
- package reactRedux
+ package com.glipka.easyReactJS.reactRedux
 import scala.scalajs.js
 /** 
  * If true, implements shouldComponentUpdate and shallowly compares the result of mergeProps,

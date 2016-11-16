@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package redux
+package com.glipka.easyReactJS.redux
 import scala.scalajs.js
  /**
      * A *dispatching function* (or simply *dispatch function*) is a function that

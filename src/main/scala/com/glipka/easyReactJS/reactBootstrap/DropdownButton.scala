@@ -14,11 +14,11 @@
 # limitations under the License.
 */
 
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 
 import scala.scalajs.js
-import react._
-import reactBootstrap.ReactBootstrap._
+import com.glipka.easyReactJS.react._
+import com.glipka.easyReactJS.reactBootstrap.ReactBootstrap._
 
 // [DropdownButton /]
 @js.native trait DropdownButtonBaseProps extends DropdownBaseProps with js.Any {

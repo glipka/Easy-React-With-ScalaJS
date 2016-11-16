@@ -14,12 +14,12 @@
 # limitations under the License.
 */
  
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 
  import scala.scalajs.js
-import react._
+import com.glipka.easyReactJS.react._
 import ReactBootstrap._
-import react.React._
+import com.glipka.easyReactJS.react.React._
   // [SafeAnchor /]
     @js.native trait SafeAnchorProps extends  HTMLProps[SafeAnchor]  with js.Any{
  

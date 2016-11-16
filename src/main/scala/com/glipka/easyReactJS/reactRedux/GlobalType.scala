@@ -14,6 +14,6 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 
 

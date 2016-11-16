@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 import scala.scalajs.js
 @js.native
 trait MapStateToProps[TStateProps, TOwnProps] extends js.Any {

@@ -14,9 +14,9 @@
 # limitations under the License.
 */
 
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 import scala.scalajs.js
-import react._
+import com.glipka.easyReactJS.react._
 // [Collapse /]
 @js.native trait CollapseProps extends TransitionCallbacks with Props[Collapse] with js.Any {
   var dimension: String = js.native

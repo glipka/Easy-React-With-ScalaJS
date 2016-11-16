@@ -14,11 +14,11 @@
 # limitations under the License.
 */
  
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 import scala.scalajs.js
 import org.scalajs.dom.raw._
 import scala.scalajs.js._
-import react._
+import com.glipka.easyReactJS.react._
 import ReactBootstrap._
 
 @js.native trait RadioProps extends HTMLProps[Radio] with js.Any  {

@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package redux
+package com.glipka.easyReactJS.redux
 import scala.scalajs.js
 /**
  * Object whose values are action creator functions.

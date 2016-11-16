@@ -14,11 +14,11 @@
 # limitations under the License.
 */
  
-package reactRouter
+package com.glipka.easyReactJS.reactRouter
 
 import scala.scalajs.js
 import GlobalDefinition._
-import react._
+import com.glipka.easyReactJS.react._
 @js.native
 trait IndexRedirectProps extends Props[js.Any] with js.Any {
   val to: RoutePattern = js.native

@@ -14,7 +14,7 @@
 # limitations under the License.
 */
 
-package react
+package com.glipka.easyReactJS.react
 import scala.scalajs.js
 import org.scalajs.dom._
 import org.scalajs.dom.raw._

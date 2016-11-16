@@ -14,7 +14,7 @@
 # limitations under the License.
 */
 
-package react
+package com.glipka.easyReactJS.react
 import scala.scalajs.js
 import scala.scalajs.js._
 import org.scalajs.dom.html
@@ -24,7 +24,7 @@ import js.{ Any => jAny }
 import org.scalajs.dom.raw
 import org.scalajs.dom.raw._
 
-import react.jsx.{ Element => JsxElement }
+import com.glipka.easyReactJS.react.jsx.{ Element => JsxElement }
 
 // https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/react/react.d.ts
 

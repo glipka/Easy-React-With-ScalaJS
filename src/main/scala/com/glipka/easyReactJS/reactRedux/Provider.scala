@@ -14,10 +14,10 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 import scala.scalajs.js
 import scala.scalajs.js._
-import react.Component
+import com.glipka.easyReactJS.react.Component
 import scala.scalajs.js.annotation.JSName
 
  

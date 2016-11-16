@@ -15,7 +15,7 @@
 */
  
  
-package react
+package com.glipka.easyReactJS.react
 import scala.scalajs.js
 import scala.scalajs.js._
 import org.scalajs.dom.html

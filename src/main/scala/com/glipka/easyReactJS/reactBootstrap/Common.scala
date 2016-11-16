@@ -14,7 +14,7 @@
 # limitations under the License.
 */
 
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 import ReactBootstrap._
 object Common {
   // modal

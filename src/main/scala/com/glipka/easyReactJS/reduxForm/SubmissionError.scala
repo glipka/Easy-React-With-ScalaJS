@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package reduxForm
+package com.glipka.easyReactJS.reduxForm
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.ScalaJSDefined

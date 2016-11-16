@@ -14,13 +14,13 @@
 # limitations under the License.
 */
  
-package reduxForm
+package com.glipka.easyReactJS.reduxForm
 
 import scala.scalajs.js
 import scala.scalajs.js._
 import ReduxForm._
-import react.SyntheticEvent
-import redux._
+import com.glipka.easyReactJS.react.SyntheticEvent
+import com.glipka.easyReactJS.redux._
 import Dynamic.literal
 @js.native
 trait ReduxFormConfig extends js.Any{

@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package reactRedux
+package com.glipka.easyReactJS.reactRedux
 import scala.scalajs.js
 @js.native
 trait MergeProps[TStateProps, TDispatchProps, TOwnProps] extends js.Any{

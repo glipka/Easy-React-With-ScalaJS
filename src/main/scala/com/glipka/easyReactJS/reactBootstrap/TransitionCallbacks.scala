@@ -14,7 +14,7 @@
 # limitations under the License.
 */
  
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 
  import scala.scalajs.js
  import scala.scalajs.js._

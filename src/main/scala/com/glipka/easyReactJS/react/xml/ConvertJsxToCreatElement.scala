@@ -14,7 +14,7 @@
 # limitations under the License.
 */
 
-package react.xml
+package com.glipka.easyReactJS.react.xml
 import scala.annotation.StaticAnnotation
 import scala.language.experimental.macros
 import scala.reflect.macros.whitebox
@@ -29,7 +29,7 @@ import java.io.FileWriter
 import java.io.File
 import java.util.Dictionary
 import scala.scalajs.js
-import react._
+import com.glipka.easyReactJS.react._
 
 //object ConvertJsxToCreatElement {
 //  def apply(elem: Elem): Any = macro TransFormJSX.apply

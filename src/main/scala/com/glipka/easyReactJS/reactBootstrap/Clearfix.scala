@@ -15,9 +15,9 @@
 */
  
  
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 import scala.scalajs.js
-import react._
+import com.glipka.easyReactJS.react._
  
 @js.native trait ClearfixProps extends HTMLProps[Clearfix] with js.Any {
   var componentClass: ReactType = js.native

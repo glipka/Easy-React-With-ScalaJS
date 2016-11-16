@@ -14,12 +14,12 @@
 # limitations under the License.
 */
  
-package react
+package com.glipka.easyReactJS.react
 
 import scala.scalajs.js
 import org.scalajs.{ dom => scalaJsDom }
 import js.{ Dynamic, UndefOr, Any => JAny }
-import React._
+import com.glipka.easyReactJS.react._
 import org.scalajs.dom._
 
 // This interface is not complete. Only properties accepting

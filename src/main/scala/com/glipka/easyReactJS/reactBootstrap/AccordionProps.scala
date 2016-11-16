@@ -14,11 +14,11 @@
 # limitations under the License.
 */
 
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 import scala.scalajs.js
 import scala.scalajs.js._
 import  ReactBootstrap._
-import react._
+import com.glipka.easyReactJS.react._
 @js.native
 trait AccordionProps extends  HTMLProps[Accordion] with js.Any {
   var bsSize: Sizes = js.native

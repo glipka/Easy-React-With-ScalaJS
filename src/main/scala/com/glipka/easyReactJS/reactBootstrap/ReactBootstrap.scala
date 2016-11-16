@@ -14,9 +14,9 @@
 # limitations under the License.
 */
  
-package reactBootstrap
+package com.glipka.easyReactJS.reactBootstrap
 import scala.scalajs.js
-import react._
+import com.glipka.easyReactJS.react._
 @js.native
 object ReactBootstrap extends js.Any {
   var Well: ClassicComponentClass[WellProps] = js.native

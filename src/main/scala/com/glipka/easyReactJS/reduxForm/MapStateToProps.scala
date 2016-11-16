@@ -14,11 +14,11 @@
 # limitations under the License.
 */
  
-package reduxForm
+package com.glipka.easyReactJS.reduxForm
 
  import scala.scalajs.js
 import scala.scalajs.js._
-import react.SyntheticEvent
+import com.glipka.easyReactJS.react.SyntheticEvent
 @js.native 
 trait MapStateToProps extends js.Any{
     //    (state:Any, ownProps :Any): Any;

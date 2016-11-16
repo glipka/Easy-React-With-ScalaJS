@@ -14,12 +14,12 @@
 # limitations under the License.
 */
  
-package reduxForm
+package com.glipka.easyReactJS.reduxForm
 
  import scala.scalajs.js
 import scala.scalajs.js._
  
-import react._
+import com.glipka.easyReactJS.react._
 @js.native 
 class ElementClass extends Component[Any, Any]  with js.Any()
   
