@@ -14,17 +14,10 @@
 # limitations under the License.
 */
 
-package com.glipka.easyReactJS.reactRouter
+package com.glipka.easyReactJS.otherComponents
 import scala.scalajs.js
 import com.glipka.easyReactJS.react._
-import GlobalDefinition._
 @js.native
-trait RouteComponentProps[P, R] extends js.Any {
-  val history: History = js.native
-  val location: js.Any = js.native
-  val params: P = js.native
-  val route: PlainRoute = js.native
-  val routeParams: R = js.native
-  val routes: js.Array[PlainRoute] = js.native
-  val children: ReactElement[Any] = js.native
+object OtherComponents extends js.Any {
+  var Griddle: js.Dynamic = js.native
 }

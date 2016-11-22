@@ -1,3 +1,4 @@
+ 
 /*
  # Copyright 2016 Georges Lipka
 #
@@ -13,18 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 */
-
+ 
 package com.glipka.easyReactJS.reactRouter
-import scala.scalajs.js
+import scala.scalajs.js 
 import com.glipka.easyReactJS.react._
-import GlobalDefinition._
+  import GlobalDefinition._
 @js.native
-trait RouteComponentProps[P, R] extends js.Any {
-  val history: History = js.native
-  val location: js.Any = js.native
-  val params: P = js.native
-  val route: PlainRoute = js.native
-  val routeParams: R = js.native
-  val routes: js.Array[PlainRoute] = js.native
-  val children: ReactElement[Any] = js.native
-}
+ class Match extends   js.Any {}

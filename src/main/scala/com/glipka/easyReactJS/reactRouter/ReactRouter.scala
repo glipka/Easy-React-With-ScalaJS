@@ -13,23 +13,25 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 */
- 
+
 package com.glipka.easyReactJS.reactRouter
 import scala.scalajs.js
 import com.glipka.easyReactJS.react._
 import GlobalDefinition._
+
 @js.native
 object ReactRouter extends js.Any {
   val browserHistory: History = js.native
   val hashHistory: History = js.native
   def createMemoryHistory(options: js.Any): js.Any = js.native
-
+  val BrowserRouter: js.Dynamic = js.native
   val Router: Router = js.native
   val Link: Link = js.native
-
+  val BrowserHistory: js.Dynamic = js.native
   val IndexLink: Link = js.native
   val RouterContext: RouterContext = js.native
   val Route: Route = js.native
+  val Match: Match = js.native
   val Redirect: Redirect = js.native
   val IndexRoute: IndexRoute = js.native
   val IndexRedirect: js.Any = js.native
