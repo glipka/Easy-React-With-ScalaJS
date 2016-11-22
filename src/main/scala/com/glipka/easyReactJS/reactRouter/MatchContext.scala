@@ -1,4 +1,3 @@
-
 /*
  # Copyright 2016 Georges Lipka
 #
@@ -14,11 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 */
-
 package com.glipka.easyReactJS.reactRouter
-
 import scala.scalajs.js
 import com.glipka.easyReactJS.react._
-import GlobalDefinition._
-@js.native
-class Miss extends js.Any {}
+ import GlobalDefinition._
+ 
+ @js.native
+trait MatchContext extends js.Any{
+  val addMatch: js.Function=js.native
+  val removeMatch: js.Function=js.native
+  
+}

@@ -25,6 +25,10 @@ object ReactRouter extends js.Any {
   val hashHistory: History = js.native
   def createMemoryHistory(options: js.Any): js.Any = js.native
   val BrowserRouter: js.Dynamic = js.native
+  val HashRouter: js.Dynamic = js.native
+  val MemoryRouter: js.Dynamic = js.native
+  val NavigationPrompt: js.Dynamic = js.native
+  val StaticRouter: js.Dynamic = js.native
   val Router: Router = js.native
   val Link: Link = js.native
   val BrowserHistory: js.Dynamic = js.native
@@ -32,6 +36,8 @@ object ReactRouter extends js.Any {
   val RouterContext: RouterContext = js.native
   val Route: Route = js.native
   val Match: Match = js.native
+
+  val Miss: Miss = js.native
   val Redirect: Redirect = js.native
   val IndexRoute: IndexRoute = js.native
   val IndexRedirect: js.Any = js.native

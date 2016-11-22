@@ -13,14 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 */
- 
+
 package com.glipka.easyReactJS.reactRouter
 import scala.scalajs.js
- import GlobalDefinition._
+import GlobalDefinition._
 @js.native
-trait RouterState extends js.Object  with js.Any{
-     val   location:js.Any=js.native
-     val   routes: js.Array[PlainRoute]=js.native
-    val    params: js.Any=js.native
-    val    components: js.Array[RouteComponent ]=js.native
-    }
+trait RouterState extends js.Object with js.Any {
+  val location: js.Any = js.native
+  val routes: js.Array[PlainRoute] = js.native
+  val params: js.Any = js.native
+  val components: js.Array[RouteComponent] = js.native
+}

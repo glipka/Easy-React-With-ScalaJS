@@ -13,11 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 */
- 
+
 package com.glipka.easyReactJS.reactRouter
 import scala.scalajs.js
 import com.glipka.easyReactJS.react._
- import GlobalDefinition._
- 
+import GlobalDefinition._
+
 @js.native
-trait RouterContext extends  ComponentClass[RouterContextProps] with js.Any
+trait RouterContext extends ComponentClass[RouterContextProps] with js.Any {
+  val transitionTo: js.Function = js.native
+  val replaceWith: js.Function = js.native
+  val blockTransitions: js.Function = js.native
+  val createHref: js.Function = js.native
+}
