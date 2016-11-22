@@ -18,12 +18,14 @@ package com.glipka.easyReactJS.reactRouter
 import scala.scalajs.js
 import com.glipka.easyReactJS.react._
 import GlobalDefinition._
+import scala.scalajs.js.annotation.ScalaJSDefined
 
-@js.native
+@ScalaJSDefined
 trait Location extends js.Any {
-  val pathname: String = js.native
-  val search: String = js.native
-  val hash: String = js.native
-  val state: js.Any = js.native
-  val key: String = js.native
+  val pathname: String  
+  val search: String  
+  val hash: String  
+  val state: String
+  val key: String  
+  val query:String 
 }
