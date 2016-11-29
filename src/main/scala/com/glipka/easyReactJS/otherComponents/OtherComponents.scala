@@ -17,7 +17,11 @@
 package com.glipka.easyReactJS.otherComponents
 import scala.scalajs.js
 import com.glipka.easyReactJS.react._
+import scala.scalajs.js.annotation.JSName
+
 @js.native
 object OtherComponents extends js.Any {
   var Griddle: js.Dynamic = js.native
+  @JSName("Creatable")
+  val Creatable:js.Dynamic=js.native
 }

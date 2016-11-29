@@ -1,4 +1,4 @@
- 
+
 /*
  # Copyright 2016 Georges Lipka
 #
@@ -16,13 +16,28 @@
 */
 package com.glipka.easyReactJS.otherComponents
 
-
- 
- 
 import scala.scalajs.js
 import scala.scalajs.js._
 import com.glipka.easyReactJS.react._
 import scala.scalajs.js.annotation.JSName
 
-@js.native 
-class Griddle(props: js.Any) extends Component[Any, Any](props) with js.Any {}
+@js.native
+class Select(props: js.Any) extends Component[Any, Any](props) with js.Any {
+  val Creatable:js.Dynamic=js.native
+  val Async:js.Dynamic=js.native 
+  val AsynCreatable:js.Dynamic=js.native
+}
+
+@js.native
+@JSName("Creatable")
+class Creatable(props: js.Any) extends Component[Any, Any](props) with js.Any {}
+
+@js.native
+class Async(props: js.Any) extends Component[Any, Any](props) with js.Any {}
+
+@js.native
+class AsyncCreatable(props: js.Any) extends Component[Any, Any](props) with js.Any {}
+
+
+
+  
