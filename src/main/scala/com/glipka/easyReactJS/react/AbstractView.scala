@@ -32,4 +32,5 @@ abstract class AbstractView extends js.Any {
   var styleMedia: StyleMedia = js.native
   var document: Document = js.native
 }
-
+ 
+//
